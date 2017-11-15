@@ -24,11 +24,11 @@ public class Author {
     private String jianshu = null;
 
     Author() {
-        github = "https://github.com/lijiankun24";
-        weibo = "http://weibo.com/lijiankun24";
-        blog = "http://lijiankun24.com";
-        mail = "jiankunli24@gmail.com";
-        jianshu = "http://www.jianshu.com/u/1abe21b7ff5f";
+        github = "https://github.com/czy1991/ArchitecturePractice-master";
+        weibo = "";
+        blog = "";
+        mail = "2402531440@qq.com";
+        jianshu = "";
     }
 
     String getGithub() {

@@ -41,23 +41,30 @@
     <TextView
         android:id="@+id/tv_weibo"
         style="@style/TextViewStyle"
+        android:visibility="gone"
         android:gravity="start|center_vertical"/>
 
-    <View style="@style/LineStyle"/>
+    <View style="@style/LineStyle"
+        android:visibility="gone"
+        />
 
     <TextView
         android:id="@+id/tv_blog"
         style="@style/TextViewStyle"
+        android:visibility="gone"
         android:gravity="start|center_vertical"/>
 
-    <View style="@style/LineStyle"/>
+    <View style="@style/LineStyle"
+        android:visibility="gone"/>
 
     <TextView
         android:id="@+id/tv_jianshu"
         style="@style/TextViewStyle"
+        android:visibility="gone"
         android:gravity="start|center_vertical"/>
 
-    <View style="@style/LineStyle"/>
+    <View style="@style/LineStyle"
+        android:visibility="gone"/>
 
     <TextView
         android:id="@+id/tv_mail"
