@@ -1,13 +1,11 @@
 package com.lijiankun24.architecturepractice.ui.activity
 
 import android.arch.lifecycle.LifecycleRegistry
-import android.arch.lifecycle.LifecycleRegistryOwner
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
 import android.view.Menu
 import android.view.MenuItem
-
 import com.lijiankun24.architecturepractice.R
 import com.lijiankun24.architecturepractice.about.AboutActivity
 
@@ -23,10 +21,9 @@ import com.lijiankun24.architecturepractice.about.AboutActivity
  * @version 1.0
  */
 
-open class BaseActivity : AppCompatActivity(), LifecycleRegistryOwner, Toolbar.OnMenuItemClickListener {
+open class BaseActivity : AppCompatActivity() , Toolbar.OnMenuItemClickListener {
 
     private val mRegistry = LifecycleRegistry(this)
-
     override fun getLifecycle(): LifecycleRegistry {
         return mRegistry
     }

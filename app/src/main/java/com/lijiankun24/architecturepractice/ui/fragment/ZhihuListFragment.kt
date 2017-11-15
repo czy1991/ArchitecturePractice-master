@@ -5,6 +5,7 @@ import android.arch.lifecycle.LifecycleFragment
 import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProviders
 import android.os.Bundle
+import android.support.v4.app.Fragment
 import android.support.v4.widget.SwipeRefreshLayout
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
@@ -36,7 +37,7 @@ import com.lijiankun24.architecturepractice.viewmodel.ZhihuListViewModel
  * @version 1.0
  */
 
-class ZhihuListFragment : LifecycleFragment() {
+class ZhihuListFragment : Fragment() {
 
     // ZhihuListFragment 所对应的 ViewModel 类的对象
     private var mListViewModel: ZhihuListViewModel? = null
