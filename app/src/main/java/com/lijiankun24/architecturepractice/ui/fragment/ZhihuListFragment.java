@@ -28,9 +28,14 @@ import com.lijiankun24.architecturepractice.viewmodel.ZhihuListViewModel;
 import java.util.List;
 
 /**
- * ZhihuListFragment.java
+ * 类 <code>${CLASS_NAME}</code>
  * <p>
- * Created by lijiankun on 17/7/30.
+ * 描述：
+ * </p>
+ * 创建日期：2017年11月15日
+ *
+ * @author zhaoyong.chen@ehking.com
+ * @version 1.0
  */
 
 public class ZhihuListFragment extends LifecycleFragment {

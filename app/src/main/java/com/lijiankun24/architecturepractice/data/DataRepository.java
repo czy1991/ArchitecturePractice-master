@@ -12,9 +12,14 @@ import com.lijiankun24.architecturepractice.utils.Util;
 import java.util.List;
 
 /**
- * DataRepository.java
+ * 类 <code>${CLASS_NAME}</code>
  * <p>
- * Created by lijiankun on 17/7/7.
+ * 描述：
+ * </p>
+ * 创建日期：2017年11月15日
+ *
+ * @author zhaoyong.chen@ehking.com
+ * @version 1.0
  */
 
 public class DataRepository {

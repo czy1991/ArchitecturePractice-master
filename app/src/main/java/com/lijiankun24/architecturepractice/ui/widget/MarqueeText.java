@@ -6,9 +6,14 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 
 /**
- * MarqueeText.java
+ * 类 <code>${CLASS_NAME}</code>
+ * <p>
+ * 描述：
+ * </p>
+ * 创建日期：2017年11月15日
  *
- * Created by lijiankun on 16/12/15.
+ * @author zhaoyong.chen@ehking.com
+ * @version 1.0
  */
 public class MarqueeText extends TextView {
 

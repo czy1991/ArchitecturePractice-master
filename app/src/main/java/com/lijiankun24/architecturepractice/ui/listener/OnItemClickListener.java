@@ -1,11 +1,15 @@
 package com.lijiankun24.architecturepractice.ui.listener;
 
 /**
- * OnItemClickListener.java
+ * 类 <code>${CLASS_NAME}</code>
  * <p>
- * Created by lijiankun on 17/7/4.
+ * 描述：
+ * </p>
+ * 创建日期：2017年11月15日
+ *
+ * @author zhaoyong.chen@ehking.com
+ * @version 1.0
  */
-
 public interface OnItemClickListener<T> {
     void onClick(T t);
 }

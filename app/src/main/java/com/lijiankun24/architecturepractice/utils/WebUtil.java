@@ -1,9 +1,14 @@
 package com.lijiankun24.architecturepractice.utils;
 
 /**
- * WebUtil.java
+ * 类 <code>${CLASS_NAME}</code>
  * <p>
- * Created by 蔡小木 on 2016/3/7 0007.
+ * 描述：
+ * </p>
+ * 创建日期：2017年11月15日
+ *
+ * @author zhaoyong.chen@ehking.com
+ * @version 1.0
  */
 public class WebUtil {
 

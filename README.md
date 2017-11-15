@@ -28,9 +28,14 @@ You should to complete the view below and you have two apis to access Zhihu List
 The source code of ZhihuListFragment(leave some unimportant code out):
 ``` Java
 /**
- * ZhihuListFragment.java
+ * 类 <code>${CLASS_NAME}</code>
  * <p>
- * Created by lijiankun on 17/7/30.
+ * 描述：
+ * </p>
+ * 创建日期：2017年11月15日
+ *
+ * @author zhaoyong.chen@ehking.com
+ * @version 1.0
  */
 
 public class ZhihuListFragment extends LifecycleFragment {
@@ -94,9 +99,14 @@ public class ZhihuListFragment extends LifecycleFragment {
 `ZhihuListViewModel` is responsible to connect the `ZhihuLiveFragment`(View layer) and 'DataRepository'(Model layer), `ZhihuLiveViewModel` hold LiveData and DataRepository, the LiveData works like RxJava's Observables, they will notify the observer(ZhihuLiseFragment) when the data is Available, and the DataRepository is datasource. TheThe source code of `ZhihuListViewModel` is:
 ``` Java
 /**
- * ZhihuListViewModel.java
+ * 类 <code>${CLASS_NAME}</code>
  * <p>
- * Created by lijiankun on 17/7/30.
+ * 描述：
+ * </p>
+ * 创建日期：2017年11月15日
+ *
+ * @author zhaoyong.chen@ehking.com
+ * @version 1.0
  */
 
 public class ZhihuListViewModel extends AndroidViewModel {
@@ -183,10 +193,15 @@ public class ZhihuListViewModel extends AndroidViewModel {
 The DataRepository represents the Model layer to work with ZhihuListViewModel(ViewModel layer), and the DataRepository contains two DataSources(from remote and from local). The DataSource is an interface to provide api to access data and the source code is(leave some irrelevant code out):
 ``` Java
 /**
- * DataSource.java
- * <p>
- * Created by lijiankun on 17/7/7.
- */
+  * 类 <code>${CLASS_NAME}</code>
+  * <p>
+  * 描述：
+  * </p>
+  * 创建日期：2017年11月15日
+  *
+  * @author zhaoyong.chen@ehking.com
+  * @version 1.0
+  */
 
 public interface DataSource {
 
@@ -208,9 +223,14 @@ public interface DataSource {
 The DataRepository provides pure API for ViewModel layer to access data and the source code of DataRepository(leave some irrelevant code out):
 ``` Java
 /**
- * DataRepository.java
+ * 类 <code>${CLASS_NAME}</code>
  * <p>
- * Created by lijiankun on 17/7/7.
+ * 描述：
+ * </p>
+ * 创建日期：2017年11月15日
+ *
+ * @author zhaoyong.chen@ehking.com
+ * @version 1.0
  */
 
 public class DataRepository {
@@ -275,10 +295,16 @@ public class DataRepository {
 
 The RemoteDataSource implemeting the interface of DataSource requests data from remote and in [ArchitecturePractice](https://github.com/lijiankun24/ArchitecturePractice) project uses Retrofit to request data from network, the ApiManager is an class to manager retrofit interface.
 ``` Java
+
 /**
- * RemoteDataSource.java
+ * 类 <code>${CLASS_NAME}</code>
  * <p>
- * Created by lijiankun on 17/7/7.
+ * 描述：
+ * </p>
+ * 创建日期：2017年11月15日
+ *
+ * @author zhaoyong.chen@ehking.com
+ * @version 1.0
  */
 
 public class RemoteDataSource implements DataSource {
@@ -384,9 +410,14 @@ public class RemoteDataSource implements DataSource {
 The LocalDataSource implemeting the interface of DataSource load data from local database and in [ArchitecturePractice](https://github.com/lijiankun24/ArchitecturePractice) project uses Room to store data, the AppDatabaseManager is an class to manager local database.
 ``` Java
 /**
- * LocalDataSource.java
+ * 类 <code>${CLASS_NAME}</code>
  * <p>
- * Created by lijiankun on 17/7/7.
+ * 描述：
+ * </p>
+ * 创建日期：2017年11月15日
+ *
+ * @author zhaoyong.chen@ehking.com
+ * @version 1.0
  */
 
 public class LocalDataSource implements DataSource {

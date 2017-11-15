@@ -13,6 +13,16 @@ import android.widget.TextView;
 import com.lijiankun24.architecturepractice.R;
 import com.lijiankun24.architecturepractice.ui.activity.BaseActivity;
 
+/**
+ * 类 <code>${CLASS_NAME}</code>
+ * <p>
+ * 描述：
+ * </p>
+ * 创建日期：2017年11月15日
+ *
+ * @author zhaoyong.chen@ehking.com
+ * @version 1.0
+ */
 public class AboutActivity extends BaseActivity implements View.OnClickListener {
 
     private Author mAuthor = new Author();

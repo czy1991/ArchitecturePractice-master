@@ -18,11 +18,15 @@ import com.lijiankun24.architecturepractice.utils.Util;
 import java.util.List;
 
 /**
- * ZhihuListViewModel.java
+ * 类 <code>${CLASS_NAME}</code>
  * <p>
- * Created by lijiankun on 17/7/30.
+ * 描述：
+ * </p>
+ * 创建日期：2017年11月15日
+ *
+ * @author zhaoyong.chen@ehking.com
+ * @version 1.0
  */
-
 public class ZhihuListViewModel extends AndroidViewModel {
 
     // 请求接口中查询的日期参数
