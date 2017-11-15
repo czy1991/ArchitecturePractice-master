@@ -12,11 +12,18 @@ import com.lijiankun24.architecturepractice.data.local.db.entity.ZhihuStory;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
- * AppDatabaseManager.java
+ * 类 <code>${CLASS_NAME}</code>
  * <p>
- * Created by lijiankun on 17/7/5.
+ * 描述：
+ * </p>
+ * 创建日期：2017年11月15日
+ *
+ * @author zhaoyong.chen@ehking.com
+ * @version 1.0
  */
+
 
 public class AppDatabaseManager {
 
