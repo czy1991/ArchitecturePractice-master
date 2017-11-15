@@ -4,12 +4,12 @@ import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 import android.support.annotation.NonNull;
 
-
 /**
- * 类 <code>${CLASS_NAME}</code>
- * <p>
+ * 类 `${CLASS_NAME}`
+ *
+ *
  * 描述：
- * </p>
+ *
  * 创建日期：2017年11月15日
  *
  * @author zhaoyong.chen@ehking.com
