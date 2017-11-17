@@ -81,7 +81,7 @@ class ZhihuListFragment : Fragment() {
         val factory = ZhihuListViewModel.Factory(MyApplication.instance, Injection.getDataRepository(MyApplication.instance))
         mListViewModel = ViewModelProviders.of(this, factory).get(ZhihuListViewModel::class.java)
         mListViewModel!!.zhihuList.observe(this, Observer { stories ->
-            if (stories == null || stories.size <= 0) {
+            if (stories == null || stories.isEmpty()) {
                 return@Observer
             }
             L.i("size is " + stories.size)
