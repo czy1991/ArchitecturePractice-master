@@ -1,7 +1,6 @@
 package com.lijiankun24.architecturepractice.ui.fragment
 
 
-import android.arch.lifecycle.LifecycleFragment
 import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -13,7 +12,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ProgressBar
-
 import com.lijiankun24.architecturepractice.MyApplication
 import com.lijiankun24.architecturepractice.R
 import com.lijiankun24.architecturepractice.data.Injection

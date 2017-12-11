@@ -38,6 +38,7 @@ class GirlListViewModel private constructor(application: Application, girlsDataR
 
     init {
         mGirlsDataRepository = girlsDataRepository
+
         gilrsLiveData = Transformations.switchMap(mGirlPageIndex) { input -> mGirlsDataRepository!!.getGirlList(input!!) }
     }
 

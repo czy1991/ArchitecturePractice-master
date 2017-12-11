@@ -1,5 +1,6 @@
 package com.lijiankun24.architecturepractice.data.remote.api;
 
+import android.arch.lifecycle.Transformations;
 import android.support.annotation.NonNull;
 
 import com.facebook.stetho.okhttp3.StethoInterceptor;
@@ -74,6 +75,7 @@ public class ApiManager {
         return clientBuilder.build();
     }
     public ApiZhihu getApiZhihu() {
+
         if (sApiZhihu == null) {
             synchronized (ApiManager.class) {
                 if (sApiZhihu == null) {

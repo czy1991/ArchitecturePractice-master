@@ -120,24 +120,5 @@ class GirlListFragment : Fragment() {
                 android.R.color.holo_orange_light,
                 android.R.color.holo_red_light)
 
-
-       /* Observable.create(ObservableOnSubscribe<Int> { }).observeOn(AndroidSchedulers.mainThread())
-                .subscribeOn(Schedulers.io()).subscribe(object : io.reactivex.Observer<Int> {
-            override fun onSubscribe(d: Disposable) {
-
-            }
-
-            override fun onNext(value: Int?) {
-
-            }
-
-            override fun onError(e: Throwable) {
-
-            }
-
-            override fun onComplete() {
-
-            }
-        })*/
     }
 }
